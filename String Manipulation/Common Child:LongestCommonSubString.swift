@@ -78,6 +78,9 @@
  */
 // Using DP - if characters equal, take previous substring and add 1, if not equal take max of temp[i][j-1] & temp [i-1][j]. To get the string travere back and record the character for each diagonal shift.
 
+//Time complexity - O(m*n)
+//Space complexity - O(m*n)
+
 func commonChild(s1: String, s2: String) -> Int {
     var result = 0
     
